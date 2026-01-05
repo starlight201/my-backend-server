@@ -1,0 +1,6 @@
+# backend_server/requirements.txt
+Flask==2.2.2
+Flask-CORS==3.0.10
+PyMySQL==1.0.2
+python-dotenv==0.21.0 # (可选) 用于从.env文件加载配置
+Werkzeug==2.3.7 # <--- 添加这一行，锁定Werkzeug版本

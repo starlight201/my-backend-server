@@ -1,0 +1,22 @@
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python 虚拟环境
+venv/
+env/
+
+# IDE 配置文件
+.vscode/
+.idea/
+
+# 本地配置文件或敏感数据
+.env
+config.local.py
+
+# 由于 static/results/ 下的文件是程序动态生成的，建议也忽略它们
+static/results/predictions.json
+static/results/latest_entrance.jpg
+static/results/latest_exit.jpg
